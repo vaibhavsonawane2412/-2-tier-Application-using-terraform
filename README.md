@@ -7,7 +7,16 @@
 
 ## 🖥️ Installation of Terraform
 
-**Note**: Follow blog to Install the Terraform and other dependency. [Terrafrom]()
+### Create S3 Backend Bucket
+Create an S3 bucket to store the .tfstate file in the remote backend
+
+Warning! It is highly recommended that you ```enable Bucket Versioning``` on the S3 bucket to allow for state recovery in the case of accidental deletions and human error.
+
+Note: We will need this bucket name in the later step
+
+### Create a Dynamo DB table for state file locking
+Give the table a name
+Make sure to add a ```Partition key``` with the name ```LockID``` and type as ```String```
 
 👉 let install dependency to deploy the application 
 
