@@ -91,5 +91,5 @@ terraform apply
 
 type `yes`, it will prompt you for permission..
 
-**Thank you so much for reading..😅**
+## Outputs of this projects are displayed on [Github-Link](https://github.com/vaibhavsonawane2412/10WeeksOfCloudProjects.git) week2 section.
 
